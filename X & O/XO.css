@@ -1,0 +1,22 @@
+.cell{
+    background-color: rgb(255, 255, 255);
+    width: 85px;
+    height: 85px;
+    border: 2px rgb(0, 0, 0);
+    box-shadow: 0 0 0 2px;
+    line-height: 85px;
+    font-size: 75px;
+    cursor: pointer;
+}
+#gameContainer{
+    font-family: "a Abrushow";
+    text-align: center;
+    color: rgb(12, 10, 14);
+}
+
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
